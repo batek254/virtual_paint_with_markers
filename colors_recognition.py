@@ -3,7 +3,7 @@ import cv2
 
 vcap = cv2.VideoCapture('http://192.168.0.101:8000/stream.mjpg')
 
-my_colors = []
+my_colors = [[115, 153, 1, 121, 255, 255]]
 
 def find_color(img):
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
